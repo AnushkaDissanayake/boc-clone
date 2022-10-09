@@ -9,7 +9,11 @@ To visit boc-clone [click here.](https://anushkadissanayake.github.io/boc-clone/
 
 ![App Screenshot](screenshot/ss1.PNG)
 
+<hr>
+
 ![App Screenshot](screenshot/ss2.PNG)
+
+<hr>
 
 ![App Screenshot](screenshot/Animation0.gif)
 
