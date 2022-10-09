@@ -2,15 +2,17 @@
 # About The Project
 
 This pure HTML and CSS project is a clone website of the Bank of Ceylon ([BOC](https://www.boc.lk/)) in Srilanka. The clone website has been designed completely with pure HTML and CSS to practice and improve my web design skills. The whole design layout and images are copyrighted to their respective owners.
+To visit boc-clone [click here.](https://anushkadissanayake.github.io/boc-clone/)
 
 
 ## Screenshots
 
-![App Screenshot](https://www.galvanizeaction.org/wp-content/uploads/2022/06/Wow-gif.gif)
+![App Screenshot](screenshot/ss1.PNG)
 
-![App Screenshot](https://www.galvanizeaction.org/wp-content/uploads/2022/06/Wow-gif.gif) 
+![App Screenshot](screenshot/ss2.PNG)
 
-![App Screenshot](https://www.galvanizeaction.org/wp-content/uploads/2022/06/Wow-gif.gif)
+![App Screenshot](screenshot/Animation0.gif)
+
 
 ## Built With
 
