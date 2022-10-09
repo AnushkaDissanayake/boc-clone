@@ -31,7 +31,7 @@ To visit boc-clone [click here.](https://anushkadissanayake.github.io/boc-clone/
 
 ## How to Use This Repository
 
-Anyone who want to clone project using following command or [direct downlod](https://github.com/AnushkaDissanayake/boc-clone/archive/refs/heads/main.zip) zip file.
+Anyone who want to clone project use following command or [direct downlod](https://github.com/AnushkaDissanayake/boc-clone/archive/refs/heads/main.zip) zip file.
 
 ```bash
   git clone https://github.com/AnushkaDissanayake/boc-clone.git
