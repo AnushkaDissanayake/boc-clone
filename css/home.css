@@ -161,38 +161,49 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child{
 }
 
 #slide-1{
-    background-image: url('https://boc.lk/image/data/Banner/200Day_investment-2022-Sept-Web.jpg');
+    /* background-image: url('https://boc.lk/image/data/Banner/200Day_investment-2022-Sept-Web.jpg'); */
+    background-image: url('../img/banner/200Day_investment-2022-Sept-Web.jpg');
 }
 
 #slide-2{
     left: 100%;
-    background-image: url('https://boc.lk/image/data/Banner/Pita-pita_season-3-2022-E.jpg');
+    /* background-image: url('https://boc.lk/image/data/Banner/Pita-pita_season-3-2022-E.jpg'); */
+    background-image: url('../img/banner/Pita-pita_season-3-2022-E.jpg');
 }
 
 #slide-3{
     left: 200%;
-    background-image: url('https://boc.lk/image/data/Banner/SDA-2022-09.jpeg');
+    /* background-image: url('https://boc.lk/image/data/Banner/SDA-2022-09.jpeg'); */
+    background-image: url('../img/banner/SDA-2022-09.jpeg');
 }
 
 #slide-4{
     left: 300%;
-    background-image: url('https://boc.lk/image/data/Banner/Top1000_2022-En_1.jpg');
+    /* background-image: url('https://boc.lk/image/data/Banner/Top1000_2022-En_1.jpg'); */
+    background-image: url('../img/banner/Top1000_2022-En_1.jpg');
 }
 
 #slide-5{
     left: 400%;
-    background-image: url('https://boc.lk/image/data/Banner/green-loan-2022.jpeg');
+    /* background-image: url('https://boc.lk/image/data/Banner/green-loan-2022.jpeg'); */
+    background-image: url('../img/banner/green-loan-2022.jpeg');
 }
 
 #slide-6{
     left: 500%;
-    background-image: url('https://boc.lk/image/data/Banner/power-branch-close-2022-En-1.jpg');
+    /* background-image: url('https://boc.lk/image/data/Banner/power-branch-close-2022-En-1.jpg'); */
+    background-image: url('../img/banner/power-branch-close-2022-En-1.jpg');
 }
 
 #slides-wrapper{
     width: 100%;
     position: relative;
     animation-name: slider-animation;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+.slide>a{
+    animation-name: slider-button;
     animation-duration: 15s;
     animation-iteration-count: infinite;
 }
@@ -223,6 +234,49 @@ main>.row:nth-child(2)>.container>.col:last-child>ul>li>a>div:first-child{
     }
 }
 
+@keyframes slider-button {
+    0%, 10%{
+        visibility: visible;
+    }
+    11%, 25%{
+        visibility: hidden;
+    }
+
+    16%, 26%{
+        visibility: visible;
+    }
+    27%, 31%{
+        visibility: hidden;
+    }
+
+
+    32%, 58%{
+        visibility: visible;
+    }
+    59%, 63%{
+        visibility: hidden;
+    }
+
+
+    64%, 76%{
+        visibility: visible;
+    }
+    76%, 81%{
+        visibility: hidden;
+    }
+    
+
+    82%, 94%{
+        visibility: visible;
+    }
+    95%, 99%{
+        visibility: hidden;
+    }
+
+    100%{
+        visibility: visible;
+    }
+}
 
 main>.row:nth-child(3){
     padding: 20px 0;
